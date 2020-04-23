@@ -1,0 +1,77 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  margin: 3px;
+}
+
+div[class^=line-] {
+  height: 100px;
+  background-color: #EF5350;
+  color: #FFFAFA;
+  border-radius: 5px;
+  margin: 1px;
+  position: relative;
+}
+div[class^=line-] p {
+  font-family: Arial;
+  font-size: 20px;
+  position: absolute;
+  top: 35px;
+  right: 35px;
+}
+
+.line-1 {
+  flex: 1;
+}
+
+.line-2 {
+  flex: 2;
+}
+
+.line-3 {
+  flex: 3;
+}
+
+.line-4 {
+  flex: 4;
+}
+
+.line-5 {
+  flex: 5;
+}
+
+.line-6 {
+  flex: 6;
+}
+
+.line-7 {
+  flex: 7;
+}
+
+.line-8 {
+  flex: 8;
+}
+
+.line-9 {
+  flex: 9;
+}
+
+.line-10 {
+  flex: 10;
+}
+
+.line-11 {
+  flex: 11;
+}
+
+.line-12 {
+  flex: 12;
+}
+
+/*# sourceMappingURL=style.css.map */

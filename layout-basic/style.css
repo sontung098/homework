@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+}
+
+.container {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  padding: 15px;
+  width: 800px;
+}
+
+.container > div {
+  font-family: Arial;
+}
+
+.item-1 {
+  grid-column: 1/span 2;
+  background-color: #CCCCCC;
+}
+
+.item-1 p:first-child {
+  display: grid;
+  justify-content: center;
+  font-size: 50px;
+  color: #969696;
+  padding: 100px;
+}
+
+.item-1 p:last-child {
+  display: grid;
+  justify-content: end;
+  font-size: 8px;
+  color: #ABABAB;
+  padding: 8px;
+}
+
+.item-2 h4 {
+  font-size: 18px;
+  padding: 10px 0;
+}
+.item-2 strong {
+  font-size: 15px;
+  color: #333333;
+}
+.item-2 p {
+  font-size: 13px;
+  color: #929292;
+  padding: 10px 0;
+}
+
+.item-3 {
+  display: grid;
+  justify-content: center;
+  background-color: #CCCCCC;
+}
+.item-3 p:first-child {
+  font-size: 30px;
+  color: #969696;
+  padding-top: 50px;
+}
+.item-3 p:last-child {
+  display: grid;
+  justify-content: end;
+  font-size: 12px;
+  color: #ABABAB;
+  padding: 45px 8px 5px 0;
+}
+
+.item-4 {
+  height: 180px;
+}
+.item-4 h4 {
+  font-size: 18px;
+  padding: 10px 0;
+}
+.item-4 strong {
+  font-size: 15px;
+  color: #333333;
+}
+.item-4 p {
+  font-size: 13px;
+  color: #929292;
+  padding: 10px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
