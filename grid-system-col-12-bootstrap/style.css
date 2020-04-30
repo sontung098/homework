@@ -1,0 +1,21 @@
+div[class^="col"] {
+	background-color: #EF5350;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+	height: 100px;
+	position: relative;
+}
+.row {
+	border: 1px solid white;
+}
+p {
+	font-family: Arial;
+	font-size: 15px;
+	position: absolute;
+	top: 40px;
+	right: 30px;
+}
+.col-sm-1 p {
+	right: 20px;
+}
