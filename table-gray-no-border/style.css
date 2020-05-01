@@ -1,0 +1,27 @@
+* {
+	margin: 0 auto;
+}
+body {
+	background-color: #EEEEEE;
+}
+p {
+	text-align: center;
+	color: #003366;
+	font-size: 25px;
+	font-family: Arial;
+	margin-top: 20px;
+	margin-right: 300px;
+}
+table {
+	width: 500px;
+	height: 200px;
+	background-color: #33495D;
+	color: #FFFFFF;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+th {
+	color: #DDDD54;
+	padding-right: 65px;
+}
